@@ -56,6 +56,10 @@ variable "public" {
   default     = false
 }
 
+variable "aws_region" {
+  default     = "us-west-2"
+}
+
 variable "count" {
   description = "Number of Vault nodes to provision across private subnets, defaults to private subnet count."
   default     = -1
